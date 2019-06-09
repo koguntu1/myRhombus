@@ -4,6 +4,8 @@
 
 package com.sunnykeith.rhombus.controller.test;
 
+import java.awt.geom.Point2D;
+
 import com.sunnykeith.rhombus.model.Rhombus;
 
 /** Starting class RhombusDemo
@@ -18,16 +20,20 @@ public class RhombusDemo {
 	public void testRhombusPart01() {
 		Rhombus rhombus = new Rhombus(4.0, 6.5, 4.0, 2.0);
 		System.out.println("Top Point Comparision:  ");
+		this.displayPointInformation(rhombus.getTopPoint(), 4.0, 6.5);
 	 	System.out.println("Bottom Point Comparision:  ");
+	 	this.displayPointInformation(rhombus.getBottomPoint(), 4.0, 8.5);
 	 	System.out.println("Left Point Comparision:  ");
+	 	this.displayPointInformation(rhombus.getLeftPoint(), 2.0, 7.5);
 		System.out.println("Right Point Comparision:  ");
+		this.displayPointInformation(rhombus.getRightPoint(), 6.0, 7.5);
 		System.out.println("\n\nHorizontal Length of Rhombus: \t" + rhombus.getHorizontal());
 		System.out.println("Vertical Length of Rhombus: \t" + rhombus.getVertical());
 		System.out.println("Area of Rhombus: \t" + rhombus.getArea());
 		System.out.println("Length of each Side of Rhombus: \t" + rhombus.getSideLength());
 	
 	}
-	/*	
+		
 	private void displayPointInformation(Point2D.Double actualPoint, double expectedX, double expectedY) {
 		System.out.println("\tExpected x:\t" + expectedX);
 		System.out.println("\tActual x:\t" + actualPoint.getX());
@@ -35,5 +41,5 @@ public class RhombusDemo {
 		System.out.println("\tExpected y:\t" + expectedY);
 		System.out.println("\tActual y:\t" + actualPoint.getY());
 	}
-	 */
+	 
 }
