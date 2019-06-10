@@ -10,7 +10,7 @@ import com.sunnykeith.rhombus.model.Rhombus;
 
 /** Starting class RhombusDemo
  * @author Keith Oguntuwase
- * @version 6/4/2019
+ * @version 06/03/2019
  */
 public class RhombusDemo {
  /**
