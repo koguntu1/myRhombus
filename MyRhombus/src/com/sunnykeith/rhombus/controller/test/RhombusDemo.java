@@ -30,8 +30,17 @@ public class RhombusDemo {
 		System.out.println("\n\nHorizontal Length of Rhombus: \t" + rhombus.getHorizontal());
 		System.out.println("Vertical Length of Rhombus: \t" + rhombus.getVertical());
 		System.out.println("Area of Rhombus: \t" + rhombus.getArea());
-		System.out.println("Length of each Side of Rhombus: \t" + rhombus.getSideLength());
+		System.out.println("Length of each Side of Rhombus: \t" + rhombus.getSideLength());	
+	}
 	
+	/**
+	 * add testRhombusPart02 to print expected and actual values
+	 */
+	public void testRhombusPart02()	{
+		Rhombus rhombus = new Rhombus(4.0, 6.5, 4.0, 2.0);
+		System.out.println("\n\nPerimeter of Rhombus: \t" + rhombus.getPerimeter());
+		System.out.println("Ratio of Area of Rhombus: \t" + rhombus.getRatioOfAreaToSquareArea());
+		System.out.println("Inradius of Rhombus: \t" + rhombus.getInradius());
 	}
 		
 	private void displayPointInformation(Point2D.Double actualPoint, double expectedX, double expectedY) {

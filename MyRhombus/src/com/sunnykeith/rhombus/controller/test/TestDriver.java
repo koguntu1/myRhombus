@@ -27,7 +27,7 @@ public class TestDriver {
 	public static void main(String[] args) {
 		RhombusDemo demo = new RhombusDemo();
 		demo.testRhombusPart01();
-		
+		demo.testRhombusPart02();		
 	}
 
 }
