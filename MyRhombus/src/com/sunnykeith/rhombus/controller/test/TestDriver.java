@@ -10,7 +10,9 @@ package com.sunnykeith.rhombus.controller.test;
  * mutator(setter). The use of mathematical operator, console output, user input,
  * data conversion and application of java best practices, such as class/package structure,
  * javadoc comments, appropriate identifier names, proper indenting and the use of the "this"
- * keyword. 
+ * keyword.
+ * The second part of my Rhombus project is to add functionalities to existing class. And to 
+ * demonstrate code reuse by calling existing methods to more functions 
  * @author Keith Oguntuwase
  * @version 06/04/2019
  *
@@ -18,7 +20,7 @@ package com.sunnykeith.rhombus.controller.test;
 public class TestDriver {
 
  /**
-  * This is the class main method
+  * This is the class's main method
   * @param args not used
   * 
   */

@@ -101,5 +101,30 @@ public class Rhombus {
 	public double getSideLength()	{
 		return Math.sqrt((Math.pow(this.horizontal, 2) + Math.pow(this.vertical, 2)) / 4);
 	}
+	
+	/**
+	 * Add getPerimeter method and reuse value from getSideLength 
+	 * @return Perimeter
+	 */
+	public double getPerimeter() {
+		return 4 * this.getSideLength();
+	}
+	
+	/**
+	 * Added getRatioOfAreaSquareArea method
+	 * @return RatioOfAreaSquareArea
+	 */
+	public double getRatioOfAreaToSquareArea()	{
+		return this.getVertical() * this.getSideLength();
+	}
+	
+	/**
+	 * Added getInradius method to get the inscribed  circle
+	 * @return Inradius
+	 */
+	public double getInradius()	{
+		return (this.horizontal * this.vertical) / (2 * Math.sqrt(Math.pow(this.horizontal, 2) + Math.pow(this.vertical, 2)));
+	}
+	
 }
 

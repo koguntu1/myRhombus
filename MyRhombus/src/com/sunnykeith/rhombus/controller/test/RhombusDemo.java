@@ -14,7 +14,7 @@ import com.sunnykeith.rhombus.model.Rhombus;
  */
 public class RhombusDemo {
  /**
- * Defining the type Rhombus that will initailize the variable and with values
+ * Defining the type Rhombus that will initialize the variable and with values
  * to initialize the object.
  */	
 	public void testRhombusPart01() {
